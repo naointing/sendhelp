@@ -1,0 +1,21 @@
+PS C:\Users\Fujitsu\Downloads\tes> git init
+Reinitialized existing Git repository in C:/Users/Fujitsu/Downloads/tes/.git/
+PS C:\Users\Fujitsu\Downloads\tes> git add help.txt
+PS C:\Users\Fujitsu\Downloads\tes> git commit -m "help"
+[master (root-commit) 49810e3] help
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 help.txt
+PS C:\Users\Fujitsu\Downloads\tes> git remote add origin https://github.com/naointing/sendhelp.git
+PS C:\Users\Fujitsu\Downloads\tes> git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 207 bytes | 69.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/naointing/sendhelp.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+PS C:\Users\Fujitsu\Downloads\tes> git log
+commit 49810e32de8c00aa21750c8e80da5a723c3ee58b (HEAD -> master, origin/master)
+Author: nao <2102102@sit.singaporetech.edu.sg>
+Date:   Wed Sep 7 10:24:49 2022 +0800
